@@ -1,0 +1,24 @@
+{
+  "name": "mailspring-night-owl",
+  "displayName": "Night Owl",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "A dark, calm, high-contrast Night Owl theme for Mailspring",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  },
+  "private": true,
+  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graysurf/mailspring-night-owl"
+  },
+  "keywords": [
+    "mailspring",
+    "theme",
+    "dark",
+    "night-owl",
+    "ui"
+  ]
+}

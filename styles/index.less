@@ -1,0 +1,36 @@
+
+@import "ui-variables";
+
+.sheet-toolbar {
+    border-bottom: 1px solid @border-color-divider;
+    box-shadow: none;
+}
+
+.thread-icon:not(.thread-icon-unread):not(.thread-icon-star) {
+    -webkit-filter: invert(100%);
+}
+
+img.content-dark {
+    -webkit-filter: invert(90%) hue-rotate(180deg) brightness(0.9);
+}
+
+img.content-light {
+    -webkit-filter: invert(90%) hue-rotate(180deg) brightness(0.9);
+}
+
+.mail-label {
+    -webkit-filter: contrast(120%) brightness(85%);
+}
+
+#message-list .message-item-wrap .message-item-white-wrap {
+    box-shadow: 0 0 1px rgba(130, 170, 255, 0.2),
+                0 1px 2px rgba(130, 170, 255, 0.1);
+}
+
+.thread-list .unread {
+    color: #82aaff;
+}
+
+.sidebar {
+    background-color: @panel-background-color;
+}

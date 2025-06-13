@@ -1,0 +1,92 @@
+
+@import 'base/ui-variables';
+
+@gray-base: #01111f;
+@gray-darker: #0b2235;
+@gray-dark: #16324a;
+@gray: #1e3f5c;
+@gray-light: #355570;
+@gray-lighter: #5b7490;
+@white: @gray-dark;
+
+@accent-primary: #82aaff;
+@accent-primary-dark: #3d7dd8;
+
+@background-primary: #011627;
+@background-off-primary: @background-primary;
+@background-secondary: @gray-base;
+@background-tertiary: @gray-base;
+
+@border-color-primary: #16324a;
+@border-color-secondary: #16324a;
+@border-color-tertiary: #16324a;
+@border-color-divider: @border-color-secondary;
+
+@text-color: #d6deeb;
+@text-color-subtle: fadeout(@text-color, 20%);
+@text-color-very-subtle: fadeout(@text-color, 40%);
+@text-color-inverse: #d6deeb;
+@text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
+@text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
+@text-color-heading: @text-color;
+
+@text-color-link: #80cbc4;
+@text-color-link-hover: @accent-primary-dark;
+@text-color-link-active: @accent-primary-dark;
+
+@btn-default-bg-color: #10293e;
+@dropdown-default-bg-color: #0e2337;
+
+@input-bg: #0e2337;
+@input-border: @border-color-divider;
+
+@list-bg: @background-primary;
+@list-border: #0e2337;
+@list-selected-color: @text-color-inverse;
+@list-focused-color: @text-color;
+
+@toolbar-background-color: #011627;
+@panel-background-color: #0e2337;
+
+.sheet-toolbar {
+  border-bottom: 1px solid @border-color-divider;
+  box-shadow: none;
+}
+
+.thread-icon:not(.thread-icon-unread):not(.thread-icon-star) {
+  filter: invert(100%);
+}
+
+img.content-dark {
+  filter: invert(100%);
+}
+
+img.content-light {
+  filter: invert(100%);
+}
+
+.mail-label {
+  filter: contrast(110%) brightness(85%);
+}
+
+.thread-list .list-item:not(.unread):not(.selected):not(.focused) {
+  color: #aaa;
+}
+
+.thread-list .list-item.thread-list-reminder-item {
+  background-color: #16324a;
+
+  &.unread {
+    background-color: #16324a;
+
+    &:not(.focused):not(.selected) {
+      background-color: #16324a;
+    }
+  }
+}
+
+.send-reminders-header {
+  color: #c792ea;
+  background: #16324a;
+  border-bottom: 1px solid #3d7dd8;
+}
