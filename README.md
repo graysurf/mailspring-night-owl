@@ -40,3 +40,7 @@ This theme customizes:
 - `styles/index.less`
 - `styles/email-frame.less`
 - Uses modern CSS filters and LESS variables
+
+## License
+
+MIT © graysurf. See [LICENSE](LICENSE).
