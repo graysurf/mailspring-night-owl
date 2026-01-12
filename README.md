@@ -41,6 +41,8 @@ This theme customizes:
 - `styles/email-frame.less`
 - Uses modern CSS filters and LESS variables
 
-## License
+## 🪪 License
 
-MIT © graysurf. See [LICENSE](LICENSE).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
